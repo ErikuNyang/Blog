@@ -24,5 +24,5 @@ def InsertionSort(sList):
     return sList
 
 if __name__ == '__main__':
-    sList = [67,1,27,4,36,65,35,70,28,11]
+    sList = [67,1,27,4,36,65,35,70,28,12]
     print("result", InsertionSort(sList))
