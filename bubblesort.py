@@ -1,3 +1,5 @@
+import random
+
 def BubbleSort(sList):
 # 마지막 아이템의 인덱스를 저장
   lastidx = len(sList) - 1
@@ -30,7 +32,7 @@ if __name__ == '__main__':
         print(i+1, sList)
 
 # 버블 정렬을 실행할 sampleList를 선언
-    sList = [67,1,27,4,36,65,35,70,28,11]
+    sList = [ random.randint(1,40) for i in range(1,10) ]
 # 정렬전 리스트를 출력  
     print(sList)
 # 버블 정렬 함수를 호출
