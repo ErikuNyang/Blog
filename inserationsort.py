@@ -23,8 +23,7 @@ def InsertionSort(sList):
         print(sList)
         # 자리를 잃은 아이템을 올바른 위치로 옮김
         sList[j+1] = nextItem
-        # 자리를 잃은 아이템이 옮겨졌음을 보여줌
-        print("j = ", j)
+
     return sList
 
 if __name__ == '__main__':
